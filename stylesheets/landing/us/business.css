@@ -533,13 +533,9 @@ table.spec-table tfoot .links a{
 		background-position: 20px 0;
 		padding-left: 130px;
 		line-height: 40px;
-		font-weight: bold;
 	}
 	.logo h2{
 		font-size: 20px;
-	}
-	.wrapper-m .wrapper-lg{
-		padding: 20px 15px;
 	}
 	.intro-img img{
 		width: 80%;
@@ -575,6 +571,9 @@ table.spec-table tfoot .links a{
 	.title_h3{
 		font-size: 1.4em;
 		line-height: 1.5;
+	}
+	.wrapper-m .wrapper-lg{
+		padding: 20px 15px;
 	}
 	.title_h3_2{
 		font-size: 0.9em;
