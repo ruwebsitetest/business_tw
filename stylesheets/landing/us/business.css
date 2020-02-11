@@ -572,7 +572,10 @@ table.spec-table tfoot .links a{
 		font-size: 1.4em;
 		line-height: 1.5;
 	}
-	.wrapper-m .wrapper-lg{
+	.wrapper-m {
+		padding: 20px 15px;
+	}
+	.wrapper-lg{
 		padding: 20px 15px;
 	}
 	.title_h3_2{
