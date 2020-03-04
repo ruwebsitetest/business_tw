@@ -218,7 +218,7 @@ background: #f2f2f2;
 }
 .ft-3{
 	overflow: hidden;
- 	background-image: url(../../../images/us/landing/business/himirror_business_feature_4.jpg);
+ 	background-image: url(../../../images/us/landing/business/himirror_business_feature_5.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto ;
 	margin-top: 30px;
@@ -457,7 +457,7 @@ table.spec-table tfoot .links a{
   border-radius: 5px;
 }
 .specimg{
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 }
 .product_m_show,.ft-4{
