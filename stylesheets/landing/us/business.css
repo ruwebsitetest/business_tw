@@ -710,8 +710,8 @@ table.spec-table tfoot .links a{
 }
 
 .icon_top{
-	left: 52%;
-    width: 37%;
+	left: 54%;
+    width: 35%;
     top: 255px;
 }
 .program_img{
@@ -734,11 +734,11 @@ table.spec-table tfoot .links a{
 }
 .program_box{
 	color: #d7006d;
-    padding: 5px 40px;
+    padding: 5px 35px;
     border: 1.3px #d7006d solid;
     border-radius: 41px;
     margin: 20px 10px;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 400;
 }
 .program_box:hover{
