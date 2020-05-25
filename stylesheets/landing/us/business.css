@@ -233,9 +233,9 @@ background: #f2f2f2;
 .program_banner{
 	overflow: hidden;
 	background-image: url(../../../images/us/landing/business/himirror_business_main_bg.png);
-   background-repeat: no-repeat;
-   background-size: 100% auto ;
-   margin-top: 30px;
+   	background-repeat: no-repeat;
+   	background-size: 100% auto ;
+   	margin-top: 30px;
 }
 .float_dis{
 	z-index: 1;
