@@ -59,7 +59,7 @@ background: -moz-linear-gradient(top,  #ffffff 8%, #ffffff 28%, #f2f2f2 99%); /*
 background: -webkit-linear-gradient(top,  #ffffff 8%,#ffffff 28%,#f2f2f2 99%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #ffffff 8%,#ffffff 28%,#f2f2f2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
-height: 80vh;
+height: 77vh;
 }
 .top_wrapper{
 	width: 100%;
@@ -67,6 +67,7 @@ height: 80vh;
 	top: -20px;
 	opacity: 0;
 }
+
 .main_bg{
 	width: 100%;
 }
@@ -75,7 +76,6 @@ height: 80vh;
     background: transparent;
 }
 .inner_wrapper{
-	width: 1100px;
 	margin: 0 auto;
 	text-align: center;
 	padding-top:40px;
@@ -109,14 +109,14 @@ height: 80vh;
 	width: 100%;
 }
 .product_pro{
-	left: 30%;
+	left: 10%;
 	width: 22%;
 	top: 50px;
 	opacity: 0;
 
 }
 .product_enterprise{
-	left: 34%;
+	left: 23%;
 	width: 30%;
 	top: 220px;
 }
@@ -222,10 +222,22 @@ background: #f2f2f2;
 	background-repeat: no-repeat;
 	background-size: 100% auto ;
 	margin-top: 30px;
-
+}
+.ft-new{
+	overflow: hidden;
+ 	background-image: url(../../../images/us/landing/business/himirror_business_feature_6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto ;
+	margin-top: 30px;
+}
+.program_banner{
+	overflow: hidden;
+	background-image: url(/web_TW/images/us/landing/business/himirror_business_main_bg.png);
+   background-repeat: no-repeat;
+   background-size: 100% auto ;
+   margin-top: 30px;
 }
 .float_dis{
-	float: right;
 	z-index: 1;
 	width: 35%;
 	right: 0;
@@ -237,11 +249,28 @@ background: -moz-linear-gradient(top,  rgba(183,0,84,0.85) 26%, rgba(177,3,87,0.
 background: -webkit-linear-gradient(top,  rgba(183,0,84,0.85) 26%,rgba(177,3,87,0.85) 29%,rgba(27,85,157,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(183,0,84,0.85) 26%,rgba(177,3,87,0.85) 29%,rgba(27,85,157,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9b70054', endColorstr='#d91b559d',GradientType=0 ); /* IE6-9 */
-
 }
 
+.float_dis_r{
+	float: right;
+}
+.float_dis_l{
+	float: left;
+}
 .float_dis .under_line{
 	border-bottom: 1px #fff solid;
+}
+.float_dis_new{
+	z-index: 1;
+	width: 35%;
+	right: 0;
+	padding:72px 30px;
+	flex: 1;
+	height: 100%;
+	max-height: 480px;
+}
+.float_dis_new .under_line_p{
+	border-bottom: 1px #d7006d solid;
 }
 .spec_wrapper{
 	width: 650px;
@@ -373,7 +402,7 @@ p{
 	font-weight: 300;
 	line-height: 1.5;
 	color: #333;
-	margin: 10px 0;
+	margin: 15px 0;
 	font-size: 12.7pt;
 
 }
@@ -507,6 +536,9 @@ table.spec-table tfoot .links a{
 	.ft-3{
 		background-size: auto 100%;
 	}
+	.ft-new{
+		background-size: auto 100%;
+	}
 }
 
 @media only screen and (max-width: 865px) {
@@ -527,12 +559,12 @@ table.spec-table tfoot .links a{
 		height: auto;
 	}
 	.logo h1{
-		width: 180px;
+		width: 185px;
 		margin: 0 auto;
 		font-size: 20px;
-		background-size: 140px auto;
-		background-position: 20px 0;
-		padding-left: 130px;
+		background-size: 142px auto;
+		background-position: 48px 0;
+		padding-left: 150px;
 		line-height: 40px;
 		font-weight: bold;
 	}
@@ -593,7 +625,12 @@ table.spec-table tfoot .links a{
 	.wrapper-xl{
 		padding-top: 40px;
 	}
-	.float_dis{
+	.float_dis {
+		float: initial;
+		width: auto;
+		padding: 30px 20px;
+	}
+	.float_dis_new{
 		float: initial;
 		width: auto;
 		padding: 30px 20px;
@@ -651,14 +688,62 @@ table.spec-table tfoot .links a{
 	.main_bg{
 		width: 280%;
 	}
-	.top_wrapper{
+	.top_wrapper {
 		width: 100%;
+		overflow: hidden;
+	}
+	.program_banner{
 		overflow: hidden;
 	}
 	p{
 		font-size: 0.89em;
 		font-weight: 400;
 	}
+}
+.top_2{
+	position: absolute;
+    left: 59%;
+	top: 100px;
+	margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.icon_top{
+	left: 52%;
+    width: 37%;
+    top: 255px;
+}
+.program_img{
+    margin-left: 24%;
+}
+@media (max-width: 992px){
+	.full-w{
+		width: 100%;
+		margin: auto;
+	}
+	.top_2{
+		position: static;
+	}
+}
+.program_dis{
+    font-size: 1.3em;
+    font-weight: 300;
+	color: #333333;
+	margin: 0 0 0 10px;
+}
+.program_box{
+	color: #d7006d;
+    padding: 5px 40px;
+    border: 1.3px #d7006d solid;
+    border-radius: 41px;
+    margin: 20px 10px;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.program_box:hover{
+	background-color: rgba(215, 0, 109);
+	color: #FFFFFF;
 }
 
 /*
