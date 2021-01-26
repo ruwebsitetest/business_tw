@@ -116,7 +116,7 @@ height: 77vh;
 
 }
 .product_enterprise{
-	left: 23%;
+	left: 17%;
 	width: 30%;
 	top: 220px;
 }
@@ -702,7 +702,7 @@ table.spec-table tfoot .links a{
 }
 .top_2{
 	position: absolute;
-    left: 59%;
+    left: 55%;
 	top: 100px;
 	margin: 0 auto;
     text-align: center;
@@ -710,12 +710,12 @@ table.spec-table tfoot .links a{
 }
 
 .icon_top{
-	left: 54%;
+	left: 50%;
     width: 35%;
     top: 255px;
 }
 .program_img{
-    margin-left: 24%;
+    margin-left: 27%;
 }
 @media (max-width: 992px){
 	.full-w{
